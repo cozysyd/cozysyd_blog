@@ -1,0 +1,168 @@
+@font-face {
+    font-family: ChickenPie;
+    src: url('CHICKEN\ Pie.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+    font-family: "ChickenPie"
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    text-decoration: none;
+}
+
+a[href$="about.html"] {
+    background-image: url(images/about.png);
+    background-size: contain;
+}
+
+a[href$="guides.html"] {
+    background-image: url(images/gameguides.png);
+    background-size: contain;
+}
+
+a[href$="blog.html"] {
+    background-image: url(images/blog.png);
+    background-size: contain;
+}
+
+a[href$="contact.html"] {
+    background-image: url(images/contact.png);
+    background-size: contain;
+}
+
+.header {
+    border-bottom: 1px solid #E2E8F0;
+    background-color: #9DCFC0;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background-image: url(images/IMG_5298.JPG);
+    background-size: 75px;
+    background-repeat: no-repeat;
+}
+
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 5rem;
+}
+
+.nav-link{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #475569;
+}
+
+.nav-link:hover{
+    color: #FB0AB2;
+}
+
+.nav-logo {
+    font-size: 2.1rem;
+    font-weight: 500;
+    color: #FB0AB2;
+    padding-left: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+
+    a[href$="about.html"] {
+        background-image: url(images/about_white.png);
+        background-size: contain;
+    }
+    
+    a[href$="guides.html"] {
+        background-image: url(images/gameguides_white.png);
+        background-size: contain;
+    }
+    
+    a[href$="blog.html"] {
+        background-image: url(images/blog_white.png);
+        background-size: contain;
+    }
+    
+    a[href$="contact.html"] {
+        background-image: url(images/contact_white.png);
+        background-size: contain;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        -webkit-transform: translateY(8px) rotate(45deg);
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        -webkit-transform: translateY(-8px) rotate(-45deg);
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+}
