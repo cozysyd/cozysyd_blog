@@ -1,8 +1,3 @@
-@font-face {
-    font-family: ChickenPie;
-    src: url('CHICKEN\ Pie.ttf');
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +6,6 @@
 
 html {
     font-size: 100%;
-    font-family: "ChickenPie"
 }
 
 li {
