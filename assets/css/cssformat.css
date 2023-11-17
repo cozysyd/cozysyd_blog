@@ -20,22 +20,22 @@ a {
 }
 
 a[href$="about.html"] {
-    background-image: url(assets/images/about.png);
+    background-image: url(images/about.png);
     background-size: contain;
 }
 
 a[href$="guides.html"] {
-    background-image: url(assets/images/gameguides.png);
+    background-image: url(images/gameguides.png);
     background-size: contain;
 }
 
 a[href$="blog.html"] {
-    background-image: url(assets/images/blog.png);
+    background-image: url(images/blog.png);
     background-size: contain;
 }
 
 a[href$="contact.html"] {
-    background-image: url(assets/images/contact.png);
+    background-image: url(images/contact.png);
     background-size: contain;
 }
 
@@ -50,7 +50,7 @@ a[href$="contact.html"] {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.5rem;
-    background-image: url(assets/images/IMG_5298.JPG);
+    background-image: url(images/IMG_5298.JPG);
     background-size: 75px;
     background-repeat: no-repeat;
 }
@@ -121,22 +121,22 @@ a[href$="contact.html"] {
     }
 
     a[href$="about.html"] {
-        background-image: url(assets/images/about_white.png);
+        background-image: url(images/about_white.png);
         background-size: contain;
     }
     
     a[href$="guides.html"] {
-        background-image: url(assets/images/gameguides_white.png);
+        background-image: url(images/gameguides_white.png);
         background-size: contain;
     }
     
     a[href$="blog.html"] {
-        background-image: url(assets/images/blog_white.png);
+        background-image: url(images/blog_white.png);
         background-size: contain;
     }
     
     a[href$="contact.html"] {
-        background-image: url(assets/images/contact_white.png);
+        background-image: url(images/contact_white.png);
         background-size: contain;
     }
 
