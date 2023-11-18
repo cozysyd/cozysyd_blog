@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f5cbe9;
 }
 
 html {
@@ -96,6 +95,10 @@ a[href$="contact.html"] {
     font-weight: 500;
     color: #FB0AB2;
     padding-left: 50px;
+}
+
+.p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary {
+    background-color: #f5cbe9;
 }
 
 @media only screen and (max-width: 768px) {
