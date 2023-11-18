@@ -98,8 +98,7 @@ a[href$="contact.html"] {
 }
 
 .featured-image-cozy {
-    display: flex;
-    align-items: end;
+    display: inline;
 }
 
 @media only screen and (max-width: 768px) {
