@@ -97,6 +97,11 @@ a[href$="contact.html"] {
     padding-left: 50px;
 }
 
+.featured-image-cozy {
+    display: flex;
+    align-items: end;
+}
+
 @media only screen and (max-width: 768px) {
     .nav-menu-cozy {
         position: fixed;
