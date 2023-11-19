@@ -97,10 +97,6 @@ a[href$="contact.html"] {
     padding-left: 50px;
 }
 
-.bg-body-secondary {
-    background-color: antiquewhite;
-}
-
 @media only screen and (max-width: 768px) {
     .nav-menu-cozy {
         position: fixed;
