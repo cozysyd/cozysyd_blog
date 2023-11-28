@@ -109,12 +109,15 @@ a[href$="contact.html"] {
     background-color: #f5cbe9;
 }
 
-.list-unstyled {
-    display: inline;
+.social-links-cozy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-img.game-still-image:hover {
-    transform: scale(2.0);
+.footer-img {
+    width: 200px;
+    height: 200px;
 }
 
 button {
