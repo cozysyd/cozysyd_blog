@@ -114,7 +114,7 @@ a[href$="contact.html"] {
     background-color: antiquewhite;
 }
 
-img.recent-blog {
+.recent-blog {
     max-height: 100px;
 }
 
