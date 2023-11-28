@@ -33,7 +33,7 @@ a[href$="guides.html"] {
     background-size: contain;
 }
 
-a[href$="blog.html"] {
+a.nav-link-cozy[href$="blog.html"] {
     background-image: url(images/blog.png);
     background-size: contain;
 }
