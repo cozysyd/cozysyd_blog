@@ -101,14 +101,13 @@ a[href$="contact.html"] {
     padding-left: 50px;
 }
 
-.header-image-cozy {
-    display: flex;
-    justify-content: center;
-    width: 961px;
-}
-
 .p-4 {
     background-color: #f5cbe9;
+}
+
+.bg-body-secondary {
+    background-color: #b4f5f9;
+
 }
 
 @media only screen and (max-width: 768px) {
