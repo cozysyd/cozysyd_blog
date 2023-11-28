@@ -9,7 +9,7 @@ body {
 }
 
 footer {
-    background-color: #e9ecef;
+    background-color: antiquewhite;
 }
 
 html {
@@ -111,6 +111,7 @@ a[href$="contact.html"] {
 
 .p-md-5 {
     display: flex;
+    background-color: antiquewhite;
 }
 
 .social-links-cozy {
