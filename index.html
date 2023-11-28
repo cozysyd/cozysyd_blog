@@ -11,8 +11,8 @@
     <link href="assets/css/cssformat.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-  <header class="header-cozy">
-    <nav class="navbar-cozy fixed-top">
+  <header class="header-cozy" role="banner">
+    <nav class="navbar-cozy fixed-top" role="navigation">
         <a href="index.html"><img src="assets/css/images/IMG_5298.JPG" class="nav-logo-cozy"></img></a>
         <ul class="nav-menu-cozy">
             <li class="nav-item-cozy">
@@ -36,24 +36,28 @@
     </nav>
     </header>
     
-    <main class="container">
-      <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
-        <div class="col-lg-6 px-0">
-          <h1 class="display-4 fst-italic">Welcome to Cozy Syd's Blog!</h1>
-          <p class="lead my-3">I'm so happy you're here. My name is Sydney and I'm an adult cozy gamer. Click below to learn more about me!</p>
-          <p class="lead mb-0"><a href="about.html" class="text-body-emphasis fw-bold">Continue reading...</a></p>
-        </div>
-        <div class="flip-box">
-          <div class="flip-box-inner">
-            <div class="flip-box-front">
-              <img src="assets/css/images/home_animation_one.png" alt="Scrunch Kitty" style="width:500px;height:500px">
-            </div>
-            <div class="flip-box-back">
-             <img src="assets/css/images/home_animation_three.png" alt="Hooray Kitty" style="width:500px;height:500px">
+    <main class="container" role="main">
+      <section>
+        <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+          <div class="col-lg-6 px-0">
+            <h1 class="display-4 fst-italic">Welcome to Cozy Syd's Blog!</h1>
+            <p class="lead my-3">I'm so happy you're here. My name is Sydney and I'm an adult cozy gamer. Click below to learn more about me!</p>
+            <p class="lead mb-0"><a href="about.html" class="text-body-emphasis fw-bold">Continue reading...</a></p>
+          </div>
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="assets/css/images/home_animation_one.png" alt="Scrunch Kitty" style="width:500px;height:500px">
+              </div>
+              <div class="flip-box-back">
+                <img src="assets/css/images/home_animation_three.png" alt="Hooray Kitty" style="width:500px;height:500px">
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
+
+      <section>
         <div class="row mb-2">
             <div class="col-md-6">
               <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
@@ -89,14 +93,18 @@
               </div>
             </div>
           </div>
+      </section>
         
+        <section>
           <div class="row g-5">
             <div class="col-md-8">
-              <h3 class="pb-4 mb-4 fst-italic border-bottom">
-                News Announcements From Cozy Syd
-              </h3>
+              <summary>
+                <h3 class="pb-4 mb-4 fst-italic border-bottom" role="heading">
+                  News Announcements From Cozy Syd
+                </h3>
+              </summary>
         
-              <article class="blog-post">
+              <article class="blog-post" role="article">
                 <h2 class="display-5 link-body-emphasis mb-1">Welcome to the Blog!</h2>
                 <p class="blog-post-meta">November 20, 2023 by <a href="about.html">Sydney</a></p>
         
@@ -114,20 +122,22 @@
                   <dt>A fun, inclusive community</dt>
                   <dd>Join my newsletter and Discord to be a part of the cozy corner!</dd>
                 </dl>
-               
               </article>
-        
-              
             </div>
+          </div>
+        </section>
         
+          <section>
             <div class="col-md-4">
               <div class="position-sticky" style="top: 2rem;">
-                <div class="p-4 mb-3 bg-body-tertiary rounded">
-                  <h4 class="fst-italic">Join the Cozy Corner!</h4>
-                  <p class="mb-0">Want to be the first to know of any news or blog posts? Join my newsletter by clicking on the 'Contact' page in the menu and filling out the form!</p>
-                </div>
-        
-                <aside>
+                <mark>
+                  <div class="p-4 mb-3 bg-body-tertiary rounded">
+                    <h4 class="fst-italic">Join the Cozy Corner!</h4>
+                    <p class="mb-0">Want to be the first to know of any news or blog posts? Join my newsletter by clicking on the 'Contact' page in the menu and filling out the form!</p>
+                  </div>
+                </mark>
+
+                <aside role="list">
                   <h4 class="fst-italic">Recent Blog Posts</h4>
                   <ul class="list-unstyled">
                     <li>
@@ -159,23 +169,24 @@
                     </li>
                   </ul>
                 </aside>
-        
-                <div class="p-4 rounded">
-                  <h4 class="fst-italic">Archives</h4>
-                  <ol class="list-unstyled mb-0">
-                    <li><a href="blog.html">January 2024</a></li>
-                    <li><a href="blog.html">December 2023</a></li>
-                    <li><a href="blog.html">November 2023</a></li>
-                  </ol>
-                </div>
-        
+
+                <mark>
+                  <div class="p-4 rounded">
+                    <h4 class="fst-italic">Archives</h4>
+                    <ol class="list-unstyled mb-0">
+                      <li><a href="blog.html">January 2024</a></li>
+                      <li><a href="blog.html">December 2023</a></li>
+                      <li><a href="blog.html">November 2023</a></li>
+                    </ol>
+                  </div>
+                </mark>
               </div>
             </div>
-          </div>
+          </section>
     </main>
 
-    <footer class="py-5 text-center text-body-secondary bg-body-tertiary">
-      <ol class="social-links-cozy">
+    <footer class="py-5 text-center text-body-secondary bg-body-tertiary" role="contentinfo">
+      <ol class="social-links-cozy" role="list">
         <li><a href="https://github.com/cozysyd" target="_blank"><img src="assets/css/images/footer_img_one.png" class="footer-img"></img></a></li>
         <li><a href="https://www.instagram.com/cozy_syd" target="_blank"><img src="assets/css/images/footer_img_two.png" class="footer-img"></img></a></li>
         <li><a href="https://www.youtube.com/channel/UC0vVvGRGH2mgYp1ruk3FWXA" target="_blank"><img src="assets/css/images/footer_img_three.png" class="footer-img"></img></a></li>

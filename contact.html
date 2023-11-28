@@ -11,8 +11,8 @@
     <link href="assets/css/cssformat.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-    <header class="header-cozy">
-        <nav class="navbar-cozy fixed-top">
+    <header class="header-cozy" role="banner">
+        <nav class="navbar-cozy fixed-top" role="navigation">
             <a href="index.html"><img src="assets/css/images/IMG_5298.JPG" class="nav-logo-cozy" alt="Home Link"></img></a>
             <ul class="nav-menu-cozy">
                 <li class="nav-item-cozy">
@@ -36,16 +36,18 @@
         </nav>
     </header>
 
-    <main class="container">
-        <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
-            <img src="assets/css/images/IMG_3464.jpeg" class="img-fluid rounded" alt="Animal Crossing Still"></img>
-        </div>
+    <main class="container" role="main">
+        <figure role="banner">
+            <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+                <img src="assets/css/images/IMG_3464.jpeg" class="img-fluid rounded" alt="Animal Crossing Still"></img>
+            </div>
+        </figure>
         <br>
-       <div class="row">
+       <section class="row">
             <div class="col-md-8 mx-auto">
-                <h1 class="fw-light">Newsletter Sign Up</h1>
+                <h1 class="fw-light" role="heading">Newsletter Sign Up</h1>
                 <p class="lead text-body-secondary">Sign up for the Cozy Syd Newsletter and be the first to know of a new blog post or article!</p>
-                <form name="newsletterForm" onsubmit="return validateForm()">
+                <form name="newsletterForm" onsubmit="return validateForm()" role="form">
                     <div class="form-floating mb-3">
                         <input type="text" class="form-control" id="floatingInput" placeholder="Name" name="name">
                         <label for="floatingInput">Name</label>
@@ -59,9 +61,10 @@
                         <button>Join Now!</button>
                     </div>
                 </form>
-        </div>
+            </div>
+        </section>
         <br>
-        <div class="p-4 mb-3 rounded">
+        <section class="p-4 mb-3 rounded" role="list">
             <h4 class="fst-italic">Follow Me on Social Media for Even More Content!</h4>
             <ol class="social-links-cozy">
                 <li><a href="https://github.com/cozysyd" target="_blank"><img src="assets/css/images/footer_img_one.png" class="contact-img"></img></a></li>
@@ -70,10 +73,10 @@
                 <li><a href="https://www.twitch.tv/cozysyd" target="_blank"><img src="assets/css/images/footer_img_four.png" class="contact-img"></img></a></li>
                 <li><a href="https://discord.gg/yRZsqqWB" target="_blank"><img src="assets/css/images/footer_img_five.png" class="contact-img"></img></a></li>
               </ol>
-          </div>
+        </section>
     </main>
 
-    <footer class="py-5 text-center text-body-secondary bg-body-tertiary">
+    <footer class="py-5 text-center text-body-secondary bg-body-tertiary" role="contentinfo">
         <p>&copy; 2023 Sydney Spaulding</p>
         <p class="mb-0">
           <a href="#">Back to top</a>
