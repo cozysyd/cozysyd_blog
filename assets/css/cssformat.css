@@ -105,6 +105,24 @@ a[href$="contact.html"] {
     background-color: #f5cbe9;
 }
 
+button {
+    border: 0;
+    background: #b1d8b7;
+    border-radius: 4px;
+    box-shadow: 0 5px 0 #9dcfc0;
+    color: #fff;
+    cursor: pointer;
+    font: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 12px 20px;
+    transition: all .1s linear;
+  }
+  button:active {
+    box-shadow: 0 2px 0 #9dcfc0;
+    transform: translateY(3px);
+  }
+
 @media only screen and (max-width: 768px) {
     .nav-menu-cozy {
         position: fixed;
