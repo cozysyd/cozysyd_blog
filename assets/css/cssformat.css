@@ -105,6 +105,10 @@ a[href$="contact.html"] {
     background-color: #f5cbe9;
 }
 
+.list-unstyled {
+    display: inline;
+}
+
 button {
     border: 0;
     background: #b1d8b7;
