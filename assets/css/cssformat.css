@@ -248,4 +248,13 @@ button {
         transform: translateY(-8px) rotate(-45deg);
     }
 
+    .p-md-5 {
+        flex-direction: column;
+    }
+
+    .flip-box {
+        width: 300px;
+        height: 300px;
+    }
+
 }
