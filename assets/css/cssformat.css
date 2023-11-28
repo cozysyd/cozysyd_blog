@@ -115,9 +115,15 @@ a[href$="contact.html"] {
     align-items: center;
 }
 
-.footer-img {
+.contact-img {
     width: 200px;
     height: 200px;
+}
+
+.footer-img {
+    width: 100px;
+    height: 100px;
+
 }
 
 button {
