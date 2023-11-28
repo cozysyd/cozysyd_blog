@@ -102,10 +102,8 @@ a[href$="contact.html"] {
 }
 
 .nav-logo-cozy {
-    font-size: 2.1rem;
-    font-weight: 500;
-    color: #FB0AB2;
-    padding-left: 50px;
+    max-height: 100px;
+    align-items: start;
 }
 
 .p-4 {
