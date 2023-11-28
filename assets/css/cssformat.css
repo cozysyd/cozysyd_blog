@@ -253,8 +253,7 @@ button {
     }
 
     .flip-box {
-        width: 300px;
-        height: 300px;
+        display: none;
     }
 
 }
