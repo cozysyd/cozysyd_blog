@@ -105,9 +105,8 @@ a[href$="contact.html"] {
     background-color: #f5cbe9;
 }
 
-.bg-body-secondary {
-    background-color: #b4f5f9;
-
+.img-fluid {
+    max-height: 500px;
 }
 
 @media only screen and (max-width: 768px) {
