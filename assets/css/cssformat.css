@@ -9,7 +9,7 @@ body {
 }
 
 footer {
-    background-color: rgb(233,236,239);
+    background-color: #e9ecef;
 }
 
 html {
@@ -125,34 +125,41 @@ a[href$="contact.html"] {
     height: 100px;
 }
 
-.card-container {
-    display: flex;
-    align-items: end;
+.flip-box {
+    background-color: transparent;
     width: 300px;
-    height: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
   }
-  .card {
-    height: 100%;
-    position: absolute;
-    transform-style: preserve-3d;
-    transition: all 1s ease-in-out;
+  
+  .flip-box-inner {
+    position: relative;
     width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
   }
-  .card:hover {
+  
+  .flip-box:hover .flip-box-inner {
     transform: rotateY(180deg);
   }
-  .card .side {
+  
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    border-radius: 6px;
-    height: 100%;
-    position: absolute;
-    overflow: hidden;
-    width: 100%;
   }
-  .card .back {
-    height: 100%;
-    width: 100%;
-    position: absolute;
+  
+  .flip-box-front {
+    background-color: #e9ecef;
+  }
+  
+  .flip-box-back {
+    background-color: #e9ecef;
     transform: rotateY(180deg);
   }
 
