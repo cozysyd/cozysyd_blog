@@ -219,7 +219,7 @@ button {
         background-size: contain;
     }
     
-    a[href$="blog.html"] {
+    a.nav-link-cozy[href$="blog.html"] {
         background-image: url(images/blog_white.png);
         background-size: contain;
     }
@@ -254,6 +254,20 @@ button {
 
     .flip-box {
         display: none;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social-links-cozy {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
 }
