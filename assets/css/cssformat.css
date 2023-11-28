@@ -109,6 +109,10 @@ a[href$="contact.html"] {
     background-color: #f5cbe9;
 }
 
+.p-md-5 {
+    display: flex;
+}
+
 .social-links-cozy {
     display: flex;
     justify-content: space-between;
