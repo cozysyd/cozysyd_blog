@@ -191,10 +191,6 @@ button {
   }
 
 @media only screen and (max-width: 768px) {
-    .navbar-cozy {
-        position: top;
-    }
-    
     .nav-menu-cozy {
         position: fixed;
         left: -100%;
