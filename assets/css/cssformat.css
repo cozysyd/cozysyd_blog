@@ -8,6 +8,10 @@ body {
     background-color: rgb(244, 233, 241)
 }
 
+footer {
+    background-color: rgb(233,236,239);
+}
+
 html {
     font-size: 100%; 
 }
@@ -107,6 +111,10 @@ a[href$="contact.html"] {
 
 .list-unstyled {
     display: inline;
+}
+
+img.game-still-image:hover {
+    transform: scale(2.0);
 }
 
 button {
