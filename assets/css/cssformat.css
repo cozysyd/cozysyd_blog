@@ -117,7 +117,7 @@ a[href$="contact.html"] {
 
 .recent-blog {
     width: 100%;
-    height: fit-content;
+    height: 100px;
 }
 
 .social-links-cozy {
