@@ -115,10 +115,6 @@ a[href$="contact.html"] {
     background-color: antiquewhite;
 }
 
-.recent-blog {
-    max-height: 100px;
-}
-
 .social-links-cozy {
     display: flex;
     justify-content: space-between;
