@@ -105,10 +105,6 @@ a[href$="contact.html"] {
     background-color: #f5cbe9;
 }
 
-.img-fluid {
-    max-height: 500px;
-}
-
 @media only screen and (max-width: 768px) {
     .nav-menu-cozy {
         position: fixed;
