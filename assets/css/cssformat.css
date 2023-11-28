@@ -111,11 +111,6 @@ a[href$="contact.html"] {
     background-color: #f5cbe9;
 }
 
-.mb-4, .mb-3 {
-    background-color: #95f5fa;
-
-}
-
 @media only screen and (max-width: 768px) {
     .nav-menu-cozy {
         position: fixed;
